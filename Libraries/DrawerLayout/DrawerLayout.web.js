@@ -112,7 +112,7 @@ class DrawerLayout extends React.Component {
           {this.props.children}
         </Animated.View>
 
-        <Animated.View style={[styles.overlay, animatedOverlayStyles]} onClick={this.close} />
+        {/*<Animated.View style={[styles.overlay, animatedOverlayStyles]} onClick={this.close} />*/}
         <Animated.View style={[styles.drawer, dynamicDrawerStyles, animatedDrawerStyles]}>
           {this.props.renderNavigationView()}
         </Animated.View>
